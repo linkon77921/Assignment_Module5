@@ -33,6 +33,6 @@ let server = http.createServer(function (req, res) {
     }
 });
 
-server.listen(8070, () => {
-    console.log('Listening on port 8099');
+server.listen(3000, () => {
+    console.log('Listening on port 3000');
 });
